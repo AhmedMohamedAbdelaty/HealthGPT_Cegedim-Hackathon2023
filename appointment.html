@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealthGPT</title>
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/css/all.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/datepicker.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <link rel="stylesheet" href="owl/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="owl/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/appointment.css">
+
+
+
+</head>
+
+<body>
+
+  <!-- ################# Header Starts Here#######################--->
+  <header>
+    <!-- Navbar Starts here -->
+    <div id="nav-head" class="header-nav">
+      <div class="container">
+        <div class="row">
+          <h1 class="col-lg-2 col-md-3 no-padding col-sm-12 nav-img">
+            <a href="#"><span class="text-primary">Health</span> <span class="text-danger">GPT</span></a>
+
+            <a data-toggle="collapse" data-target="#menu" href="#menu"><i
+                class="fas d-block d-md-none small-menu fa-bars"></i></a>
+          </h1>
+          <div id="menu" class="col-lg-8 col-md-9 d-none d-md-block nav-item">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#about_us">About Us</a></li>
+              <li><a href="#FAQ">FAQs</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-2 d-none d-lg-block appoint">
+            <a href="appointment.html"> <button class="btn btn-info">Doctor sign-in</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="container appointment jumbotron">
+    <section class="with-medical">
+      <div class="txtr text-center">
+        <h1>
+          Chat With
+          <a href="#"><span class="text-primary">Health</span> <span class="text-danger">GPT</span></a>
+        </h1>
+      </div>
+    </section>
+<!-- GPT -->
+    <div id="chat-window">
+      <!-- <div class="main-title"></div> -->
+      <div id="chat-messages"></div>
+      <form id="chat-form">
+        <input type="text" id="chat-input" autocomplete="off" placeholder="Type your message here" required />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.3/axios.min.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/jquery-3.2.1.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/bootstrap-datepicker.js"></script>
+</body>
+
+</html>
